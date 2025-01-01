@@ -4172,19 +4172,14 @@
               "encoding": {},
               "schema": {
                 "required": [
-                  "otp",
-                  "noHp"
+                  "verify_otp",
                 ],
                 "type": "object",
                 "properties": {
-                  "otp": {
+                  "verify_otp": {
                     "type": "string",
                     "example": "585310"
                   },
-                  "noHp": {
-                    "type": "string",
-                    "example": "6282337831456"
-                  }
                 }
               }
             }
