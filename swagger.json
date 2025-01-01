@@ -3932,7 +3932,7 @@
         "security": []
       }
     },
-    "/transaction/tracking": {
+    "/transaction/tracking/6281235777438": {
       "get": {
         "tags": [
           "WEB"
@@ -3940,18 +3940,7 @@
         "summary": "tracking",
         "description": "",
         "operationId": "tracking",
-        "parameters": [
-	      {
-	        "name": "noHp",
-	        "in": "query",
-	        "description": "Nomor HP untuk tracking transaksi",
-	        "required": true,
-	        "schema": {
-	          "type": "integer",
-	          "example": 6282337831450
-	        }
-	      }
-	    ],
+        "parameters": [],
         "responses": {
           "200": {
             "description": "",
