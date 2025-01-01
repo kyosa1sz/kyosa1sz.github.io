@@ -3933,7 +3933,7 @@
       }
     },
     "/transaction/tracking": {
-      "post": {
+      "get": {
         "tags": [
           "WEB"
         ],
