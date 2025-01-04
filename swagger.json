@@ -3826,27 +3826,29 @@
                       },
                       "noHp": "6282337831456",
                       "email": "dr3amless1337@gmail.com",
+                      "quantity": 2,
                       "userAccount": {
                         "userId": 145209965,
                         "zoneId": 2724
                       },
-                      "paymentId": 4
+                      "paymentId": 2
                     }
                   }
                 ]
               },
               "example": {
-                "productId": 1,
-                "productItem": {
-                  "id": 1
-                },
+                 "productId": 15,
+                      "productItem": {
+                        "id": 161
+                      },
                 "noHp": "6282337831456",
                 "email": "dr3amless1337@gmail.com",
+                "quantity": 2,
                 "userAccount": {
                   "userId": 145209965,
                   "zoneId": 2724
                 },
-                "paymentId": 4
+                "paymentId": 2
               }
             }
           },
@@ -3893,29 +3895,31 @@
                       },
                       "noHp": "6282337831450",
                       "email": "dr3amless1337@gmail.com",
+                      "quantity": 2,
                       "userAccount": {
                         "username": "erad",
                         "userId": 145209965,
                         "zoneId": 2724
                       },
-                      "paymentId": 4
+                      "paymentId": 2
                     }
                   }
                 ]
               },
               "example": {
-                "productId": 1,
-                "productItem": {
-                  "id": 1
-                },
-                "noHp": "6282337831450",
-                "email": "dr3amless1337@gmail.com",
-                "userAccount": {
-                  "username": "erad",
-                  "userId": 145209965,
-                  "zoneId": 2724
-                },
-                "paymentId": 4
+                "productId": 15,
+                      "productItem": {
+                        "id": 161
+                      },
+                      "noHp": "6282337831450",
+                      "email": "dr3amless1337@gmail.com",
+                      "quantity": 2,
+                      "userAccount": {
+                        "username": "erad",
+                        "userId": 145209965,
+                        "zoneId": 2724
+                      },
+                      "paymentId": 2
               }
             }
           },
