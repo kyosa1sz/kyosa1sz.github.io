@@ -3242,170 +3242,27 @@
         ]
       }
     },
-    "/beliakun": {
+    "/merchant": {
       "get": {
         "tags": [
-          "PROMO"
+          "WEB"
         ],
-        "summary": "show all",
+        "summary": "merchant",
         "description": "",
-        "operationId": "Getshowall2",
+        "operationId": "merchant",
         "parameters": [
           {
-            "name": "filter",
-            "in": "query",
-            "description": "",
-            "required": true,
-            "style": "form",
-            "explode": true,
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "sort_by",
-            "in": "query",
-            "description": "",
-            "required": true,
-            "style": "form",
-            "explode": true,
-            "schema": {
-              "type": "string",
-              "example": "created_at:desc"
-            }
-          },
-          {
-            "name": "page",
-            "in": "query",
-            "description": "",
-            "required": true,
-            "style": "form",
-            "explode": true,
-            "schema": {
-              "type": "string",
-              "example": "1"
-            }
-          },
-          {
-            "name": "limit",
-            "in": "query",
-            "description": "",
-            "required": true,
-            "style": "form",
-            "explode": true,
-            "schema": {
-              "type": "string",
-              "example": "10"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "",
-            "headers": {},
-            "content": {
-              "text/plain": {
-                "schema": {}
-              }
-            }
-          }
-        },
-        "deprecated": false,
-        "security": [
-          {
-            "bearer": []
-          }
-        ]
-      },
-      "post": {
-        "tags": [
-          "PROMO"
-        ],
-        "summary": "store",
-        "description": "",
-        "operationId": "Poststore2",
-        "parameters": [
-          {
-            "name": "Content-Type",
+            "name": "Accept",
             "in": "header",
             "description": "",
             "required": true,
             "style": "simple",
             "schema": {
               "type": "string",
-              "example": "multipart/form-data"
+              "example": "application/json"
             }
           }
         ],
-        "requestBody": {
-          "content": {
-            "multipart/form-data": {
-              "encoding": {},
-              "schema": {
-                "required": [
-                  "name",
-                  "description",
-                  "banner",
-                  "startAt",
-                  "expiresAt",
-                  "isFlashsale",
-                  "promoItem[0]['productId']",
-                  "promoItem[0]['productItemId']",
-                  "promoItem[0]['isFixed']",
-                  "promoItem[0]['discountAmount']",
-                  "promoItem[0]['discountPercent']"
-                ],
-                "type": "object",
-                "properties": {
-                  "name": {
-                    "type": "string",
-                    "example": "promo bulan ramadhan"
-                  },
-                  "description": {
-                    "type": "string",
-                    "example": "ini promo bulan ramadhan"
-                  },
-                  "banner": {
-                    "type": "string",
-                    "format": "binary"
-                  },
-                  "startAt": {
-                    "type": "string",
-                    "example": "2023-04-11 20:00:00"
-                  },
-                  "expiresAt": {
-                    "type": "string",
-                    "example": "2023-04-12 20:00:00"
-                  },
-                  "isFlashsale": {
-                    "type": "string",
-                    "example": "false"
-                  },
-                  "promoItem[0]['productId']": {
-                    "type": "string",
-                    "example": "2"
-                  },
-                  "promoItem[0]['productItemId']": {
-                    "type": "string",
-                    "example": "4"
-                  },
-                  "promoItem[0]['isFixed']": {
-                    "type": "string",
-                    "example": "true"
-                  },
-                  "promoItem[0]['discountAmount']": {
-                    "type": "string",
-                    "example": "500"
-                  },
-                  "promoItem[0]['discountPercent']": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
-          },
-          "required": false
-        },
         "responses": {
           "200": {
             "description": "",
@@ -3425,14 +3282,14 @@
         ]
       }
     },
-    "/merchant": {
+    "/beliakun": {
       "get": {
         "tags": [
           "WEB"
         ],
-        "summary": "merchant",
+        "summary": "beliakun",
         "description": "",
-        "operationId": "merchant",
+        "operationId": "beliakun",
         "parameters": [
           {
             "name": "Accept",
