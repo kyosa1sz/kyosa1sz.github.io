@@ -3242,7 +3242,7 @@
         ]
       }
     },
-    "/dashboard/beliakun": {
+    "/beliakun": {
       "get": {
         "tags": [
           "PROMO"
