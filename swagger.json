@@ -3322,6 +3322,46 @@
         ]
       }
     },
+    "/kategoriakun": {
+      "get": {
+        "tags": [
+          "WEB"
+        ],
+        "summary": "kategoriakun",
+        "description": "",
+        "operationId": "kategoriakun",
+        "parameters": [
+          {
+            "name": "Accept",
+            "in": "header",
+            "description": "",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string",
+              "example": "application/json"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {},
+            "content": {
+              "text/plain": {
+                "schema": {}
+              }
+            }
+          }
+        },
+        "deprecated": false,
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
     "/banner-home": {
       "get": {
         "tags": [
