@@ -3362,6 +3362,86 @@
         ]
       }
     },
+    "/beliakun/Moonton/item": {
+      "get": {
+        "tags": [
+          "WEB"
+        ],
+        "summary": "platformitem",
+        "description": "",
+        "operationId": "platformitem",
+        "parameters": [
+          {
+            "name": "Accept",
+            "in": "header",
+            "description": "",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string",
+              "example": "application/json"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {},
+            "content": {
+              "text/plain": {
+                "schema": {}
+              }
+            }
+          }
+        },
+        "deprecated": false,
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/beliakun/Montoon/15/detail": {
+      "get": {
+        "tags": [
+          "WEB"
+        ],
+        "summary": "akundetail",
+        "description": "",
+        "operationId": "akundetail",
+        "parameters": [
+          {
+            "name": "Accept",
+            "in": "header",
+            "description": "",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string",
+              "example": "application/json"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {},
+            "content": {
+              "text/plain": {
+                "schema": {}
+              }
+            }
+          }
+        },
+        "deprecated": false,
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
     "/banner-home": {
       "get": {
         "tags": [
