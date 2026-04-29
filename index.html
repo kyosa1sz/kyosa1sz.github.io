@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mochamad Farid — Web Developer asal Indonesia. Saya bikin aplikasi web." />
+  <title>Portofolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@700;800&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">mf.</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">tentang</a></li>
+        <li><a href="#skills">keahlian</a></li>
+        <li><a href="#projects">proyek</a></li>
+        <li><a href="#contact">kontak</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="menu">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-label">Web Developer — Indonesia</div>
+      <h1 class="hero-name">Mochamad<br>Farid.</h1>
+      <p class="hero-sub">
+        Web Developer Fullstack — bisa bangun aplikasi dari nol,
+        frontend sampai backend, responsif di semua perangkat, dan SEO friendly.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">Lihat proyek</a>
+        <a href="#contact" class="btn-ghost">Hubungi saya</a>
+      </div>
+    </div>
+    <div class="hero-stack">
+      <span>React</span>
+      <span>Next.js</span>
+      <span>TypeScript</span>
+      <span>PHP</span>
+      <span>Tailwind</span>
+      <span>MySQL</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left">
+          <div class="about-photo">
+            <img src="assets/img/foto.jpg" alt="Mochamad Farid" />
+            <span class="about-photo-empty">Taruh foto di<br>assets/img/foto.jpg</span>
+          </div>
+        </div>
+        <div class="about-right">
+          <span class="eyebrow">Tentang</span>
+          <h2>Tentang<br>saya.</h2>
+          <p>
+            Saya Farid. Dulu kerja sebagai operator warnet, dan dari sana
+            mulai sering oprek tema WordPress. Mulai coding sejak 2018,
+            lama-lama makin dalam, sekarang lebih banyak kerja pakai
+            Laravel, React, dan Next.js.
+          </p>
+          <div class="about-links">
+            <a href="mailto:yaelahrid@gmail.com">yaelahrid@gmail.com</a>
+            <a href="https://github.com/kyosa1sz" target="_blank" rel="noopener">github.com/kyosa1sz</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <span class="eyebrow">Keahlian</span>
+      <h2>Yang saya pakai.</h2>
+      <div class="skills-grid">
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">HTML &amp; CSS</span>
+            <span class="skill-level">Mahir</span>
+          </div>
+          <p>Bikin tampilan yang rapi, responsif, dan enak dilihat di semua ukuran layar.</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">TypeScript</span>
+            <span class="skill-level">Cakap</span>
+          </div>
+          <p>Nulis JavaScript tapi lebih aman — error ketahuan sebelum sempat nyebelin di production.</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">React</span>
+            <span class="skill-level">Mahir</span>
+          </div>
+          <p>Sudah cukup lama pakai React, dari hooks sampai state management, sudah familiar.</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">Next.js</span>
+            <span class="skill-level">Cakap</span>
+          </div>
+          <p>Framework pilihan kalau proyek butuh SSR, routing yang rapi, atau App Router.</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">PHP / Laravel</span>
+            <span class="skill-level">Cakap</span>
+          </div>
+          <p>Untuk backend dan API. Laravel jadi pilihan karena cepat diset up dan enak dipakai.</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">Tailwind CSS</span>
+            <span class="skill-level">Mahir</span>
+          </div>
+          <p>Hampir semua proyek belakangan ini pakai Tailwind. Cepat dan hasilnya konsisten.</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">MySQL / PostgreSQL</span>
+            <span class="skill-level">Menengah</span>
+          </div>
+          <p>Bisa desain skema, tulis query yang perlu, dan tidak takut sama relasi antar tabel.</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">Git &amp; GitHub</span>
+            <span class="skill-level">Menengah</span>
+          </div>
+          <p>Sudah jadi kebiasaan — commit, branch, pull request, tiap hari.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <span class="eyebrow">Proyek</span>
+      <h2>Proyek saya.</h2>
+      <div class="projects-list">
+
+        <article class="project-card project-card--featured">
+          <div class="project-meta">
+            <span class="project-type">Full Stack</span>
+            <span class="project-year">2026</span>
+          </div>
+          <h3>SIAKAD — Sistem Informasi Akademik</h3>
+          <p>
+            Aplikasi akademik untuk universitas dengan tiga portal: mahasiswa,
+            dosen, dan admin. Mahasiswa bisa isi KRS, cek nilai, presensi,
+            bayar UKT, sampai daftar beasiswa. Dosen bisa input nilai dan
+            upload materi. Admin kelola semua data lewat satu dashboard.
+          </p>
+          <p class="project-note">
+            Next.js 16, TypeScript, Prisma, PostgreSQL, Tailwind v4, JWT.
+            18+ tabel, 40+ halaman.
+          </p>
+          <div class="project-screenshots">
+            <img src="assets/img/siakad-beranda.png" alt="SIAKAD — Halaman beranda publik" loading="lazy" />
+            <img src="assets/img/siakad-portal.png" alt="SIAKAD — Portal mahasiswa" loading="lazy" />
+            <img src="assets/img/siakad-dashboard.png" alt="SIAKAD — Dashboard admin" loading="lazy" />
+          </div>
+          <div class="project-footer">
+            <div class="project-tags">
+              <span>Next.js 16</span>
+              <span>TypeScript</span>
+              <span>Prisma</span>
+              <span>PostgreSQL</span>
+              <span>Tailwind v4</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-meta">
+            <span class="project-type">Full Stack</span>
+            <span class="project-year">2026</span>
+          </div>
+          <h3>VeyoStore</h3>
+          <p>
+            Platform top-up game digital. User bisa isi saldo, beli item game
+            seperti diamond Mobile Legends, UC PUBG, dan ratusan game lain.
+            Ada flash sale, promo voucher, histori transaksi, dan notifikasi
+            real-time. Backend pakai queue untuk proses transaksi dan
+            integrasi ke payment gateway Midtrans dan Duitku.
+          </p>
+          <p class="project-note">
+            Next.js 15, TypeScript, Zustand, Socket.io, AdonisJS, MySQL, Redis, BullMQ.
+            Role: User, Merchant, Admin, Super Admin.
+          </p>
+          <div class="project-footer">
+            <div class="project-tags">
+              <span>Next.js 15</span>
+              <span>AdonisJS</span>
+              <span>MySQL</span>
+              <span>Redis</span>
+              <span>Socket.io</span>
+              <span>Midtrans</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-meta">
+            <span class="project-type">Full Stack</span>
+            <span class="project-year">2026</span>
+          </div>
+          <h3>CBT Sekolah</h3>
+          <p>
+            Ujian online untuk sekolah. Guru bikin soal, atur jadwal ujian
+            per kelas, dan pantau peserta langsung saat ujian berlangsung.
+            Nilai otomatis tercatat, bisa dilihat per siswa atau per kelas,
+            dan bisa diekspor ke CSV.
+          </p>
+          <p class="project-note">
+            Laravel, PHP, MySQL, Tailwind, Alpine.js. Tiga role: Admin, Guru, Siswa.
+          </p>
+          <div class="project-footer">
+            <div class="project-tags">
+              <span>Laravel</span>
+              <span>PHP</span>
+              <span>MySQL</span>
+              <span>Tailwind</span>
+              <span>Alpine.js</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--alt" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-left">
+          <span class="eyebrow">Kontak</span>
+          <h2>Ngobrol yuk.</h2>
+          <p>
+            Ada proyek atau mau kerja sama? Atau cuma mau ngobrol —
+            boleh langsung hubungi.
+          </p>
+          <a href="mailto:yaelahrid@gmail.com" class="contact-email">
+            yaelahrid@gmail.com
+          </a>
+          <div class="contact-socials">
+            <a href="https://github.com/kyosa1sz" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="field">
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="name" placeholder="nama kamu" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="email@kamu.com" required />
+          </div>
+          <div class="field">
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="5" placeholder="ceritain proyeknya..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Kirim</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span>Mochamad Farid &copy; 2026</span>
+        <div class="footer-links">
+          <a href="https://github.com/kyosa1sz" target="_blank" rel="noopener">GitHub</a>
+          <a href="mailto:yaelahrid@gmail.com">Email</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
